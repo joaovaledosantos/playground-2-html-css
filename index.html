@@ -2,41 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>INPUT</title>
+    <title>Tabela</title>
+
+    <style>
+        th, td {
+            border: 1px solid #000;
+            padding: 5px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-<h1>Input</h1>
+<h1>Tabela</h1>
 
-<form>
-    <p>Escolha sua linguagem</p>
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>País</th>
+    </tr>
+    </thead>
 
-    <input type="radio" checked name="web" id="html">
-    <label for="html">HTML</label>
+    <tbody>
+    <tr>
+        <td>Chico</td>
+        <td>18</td>
+        <td>Brasil</td>
+    </tr>
 
-    <input type="radio" name="web">
-    <label>CSS</label>
+    <tr>
+        <td>Maria</td>
+        <td>17</td>
+        <td>Brasil</td>
+    </tr>
 
-    <input type="radio" name="web">
-    <label>JS</label> <br> <br>
+    <tr>
+        <td>Pedro</td>
+        <td>41</td>
+        <td>Portugal</td>
+    </tr>
 
+    <tr>
+        <td colspan="2">Total de pessoas</td>
+        <td>3</td>
+    </tr>
+    </tbody>
+  </table>
 
-    <input type="password"> <br> <br>
-
-    <input type="number" min="0" max="10"> <br> <br>
-
-    <input type="file"> <br> <br>
-
-    <input type="date"> <br> <br>
-
-    <input type="datetime-local"> <br> <br>
-
-    <input type="email"> <br> <br>
-
-    <input type="text" placeholder="Seu nome" required> <br> <br>
-
-    <button  type="submit">Enviar</button>
-
-</form>
 
 </body>
 </html>
