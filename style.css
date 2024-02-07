@@ -1,12 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+#pai{
+    width: 500px;
+    height: 150px;
+
+    background: #ddd;
+    font-size: 15px;
 }
 
-div{
-    width: 669px;
-    height: 100px;
-
-    background: #333;
+#filho{
+    font-size: 2em;
+    margin-top: 10%;
 }
+
+/*font-size: Aumenta e diminua o <p> da div*/
+
+/*em, rem, px, %, vw, vh*/
