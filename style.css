@@ -1,17 +1,17 @@
 
-#pai{
-    width: 500px;
-    height: 150px;
+.red{
+    border: 5px solid #ff3333;
+    border-radius: 50px;
 
-    background: #ddd;
-    font-size: 15px;
+    width: 100px;
+    height: 100px;
+
 }
 
-#filho{
-    font-size: 2em;
-    margin-top: 10%;
+.gray{
+    border: 5px double #555;
+    border-radius: 10px;
+
+    width: 200px;
+    height: 300px;
 }
-
-/*font-size: Aumenta e diminua o <p> da div*/
-
-/*em, rem, px, %, vw, vh*/
