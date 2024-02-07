@@ -1,20 +1,27 @@
-p {
-    font-size: 20px;
-    font-weight: bold;
+h2{
+margin-top: 25px;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    background-color: #ddd;
+div{
+margin-bottom: 50px;
 }
 
-.red {
-    border: 5px solid #f33;
-    padding: 20px 100px 30px 50px;
+.none{
+    display: none;
 }
 
-.gray {
-    border: 5px solid blue;
-    margin: 50px;
+.inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+span{
+    display: block;
 }
