@@ -1,16 +1,8 @@
-#blue{
-    background: blue;
+p{
+   color: #ff3333;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
 }
-
-
-.green{
-    background: green;
-}
-
-div{
-    width: 200px;
-    height: 200px;
-
-    background: red;
-}
-
