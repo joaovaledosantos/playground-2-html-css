@@ -1,8 +1,13 @@
-p{
-   color: #ff3333;
-    font-size: 50px;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-variant: small-caps;
+.red{
+    background-color: #ff3333;
+
+    width: 100px;
+    height: 100px;
+}
+
+.gray{
+    background-color: #555555;
+
+    width: 200px;
+    height: 200px;
 }
