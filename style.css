@@ -1,4 +1,16 @@
-h1{
-    color: blue;
-    font-size: 30px;
+#blue{
+    background: blue;
 }
+
+
+.green{
+    background: green;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+
+    background: red;
+}
+
