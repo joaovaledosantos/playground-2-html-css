@@ -1,32 +1,10 @@
-form{
-    width: 500px;
-    height: 150px;
-    padding: 2em;
+div{
+    width: 200px;
+    height: 200px;
 
-    background: #E2E2E2;
+    background: red;
+    /*opacity: 0.8;*/
+    /*box-shadow: 5px 5px 4px #333333;*/
 }
 
-input{
-    outline: 0;
-    padding: 6px;
-}
-
-input:not([type="email"]){
-    border: 2px solid #ff3333;
-}
-
-input[type="email"]{
-    border-radius: 20px;
-}
-
-ul li:last-child{
-    color: #ff3333;
-}
-
-ul li:nth-child(1){
-    color: fuchsia;
-}
-
-ul li:first-child{
-    color: green;
-}
+/*COMENTARIOS*/
