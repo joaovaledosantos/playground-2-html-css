@@ -15,11 +15,25 @@
 }
 
 .item{
+    height: 250px;
     background-color: #1573FD;
     color: #fff;
     font-size: 3em;
-    width: 250px;
-    height: 300px;
     margin: 10px;
 
+    flex-grow: 1;
+}
+
+.item:first-child{
+    flex-grow: 2;
+    order: 3;
+}
+
+.item:nth-child(2){
+    order: 4;
+}
+
+.item:last-child{
+    flex-grow: 3;
+    order: 1;
 }
