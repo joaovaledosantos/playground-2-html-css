@@ -1,10 +1,31 @@
-div{
-    width: 200px;
-    height: 200px;
-
-    background: red;
-    /*opacity: 0.8;*/
-    /*box-shadow: 5px 5px 4px #333333;*/
+:root {
+    --cortexto: #f33;
+    --fonteTitulo: 3em;
+    --cordiv: #555;
+    --p10: 10px;
+    --m10: 10px;
 }
 
-/*COMENTARIOS*/
+
+div {
+    width: 250px;
+    height: 250px;
+
+    background: #333;
+    margin-top: var(--m10);
+}
+
+
+p {
+    color: var(--cortexto);
+}
+
+h1 {
+    color: #f33;
+    font-size: var(--fonteTitulo);
+}
+
+.box-01{
+    padding: var(--p10);
+
+}
